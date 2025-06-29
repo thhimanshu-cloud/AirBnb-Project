@@ -1,0 +1,134 @@
+.navbar{
+    background-color: white !important;
+    height:5rem;
+}
+
+.fa-compass{
+    color:red;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+.footCont1{
+    display: flex;
+    justify-content: center;
+}
+
+.footCon1Start{
+    display: flex;
+    gap:15px;
+   
+}
+
+.footConIcon{
+    display: flex;
+margin-left: 30px;
+    gap: 15px;
+    color:black;
+}
+
+.fa-brands{
+    color:rgb(43, 42, 42);
+    font-size: 1.5rem;
+}
+
+.footCon2{
+    display: flex;
+    justify-content: center;
+}
+
+.footCon3{
+display: flex;
+justify-content: center;
+}
+
+.footCon3 ul{
+    display: flex;
+    gap:1rem;
+    list-style-type: none;
+}
+
+.footCon1Start i{
+    font-size: 1.5rem;
+}
+
+.footer{
+    border-top: 1px solid rgb(91, 89, 89);
+    padding-top: 2rem;
+}
+
+
+/* card styling */
+.card{
+margin-bottom:2px !important;
+border:none !important;
+}
+
+.card-img-top{
+border-radius: 1rem !important;
+width:100% !important;
+object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.subbtn{
+    background-color:red !important;
+    border:none !important;
+}
+
+.achstyling{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Edit page */
+.combo{
+    display: flex;
+
+}
+
+.review-card{
+    border:1px solid black;
+}
+
+#map {
+     height:400px;
+     width: 80vh;
+    }
+
+    .searchBtn{
+        width:8rem;
+        border-radius: 20px !important;
+        color: white !important;
+        background: red !important;
+    }
+
+    .searchBtn .fa-solid{
+        padding-right: 10px;
+    }
+
+    .searchInp{
+        border-radius: 20px !important;
+        border: 1px solid rgb(153, 152, 152) !important;
+        padding-left: 2rem !important;
+        font-size: large!important;
+        font-weight: 400 !important;
+        width: 20rem !important;
+    }
+
+
+
