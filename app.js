@@ -104,27 +104,13 @@ app.listen(8080,(req,res)=>{
 });
 
 app.get("/",(req,res)=>{
-    res.send("Hi i am root");
+    res.render("index.ejs);
 })
 
-// app.get("/testListing",async (req,res)=>{
-//     let newListing = new Listing({
-//         title: "My New Villa",
-//         description : "By the beach",
-//         price : 1200,
-//         location : "Calangute, Goa",
-//         country: "India",
-//     });
-//    await newListing.save();
-//    res.send("successfull")
-// })
 
 
 
 
-// app.all("*",(req,res,next)=>{
-//  next(new ExpressError(404,"Page not found"));
-// });
 
 app.use((err,req,res,next)=>{
     let {status=401,message="page not found"} = err;
