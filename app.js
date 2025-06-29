@@ -103,14 +103,6 @@ app.listen(8080,(req,res)=>{
     console.log('app is listening on 8080');
 });
 
-app.get("/",(req,res)=>{
-    res.render("index.ejs);
-})
-
-
-
-
-
 
 app.use((err,req,res,next)=>{
     let {status=401,message="page not found"} = err;
